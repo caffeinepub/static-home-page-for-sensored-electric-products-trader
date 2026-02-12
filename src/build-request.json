@@ -1,0 +1,83 @@
+{
+  "kind": "build_request",
+  "title": "Rename company to Electric Light and add uploaded logo",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-7",
+      "text": "Update all visible company/brand name text across the home page from “SensorTech Electric” to “Electric Light”.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "change the company name to electric light."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Header brand text displays “Electric Light”.",
+        "About section heading displays “About Electric Light”.",
+        "Footer brand text displays “Electric Light”.",
+        "Footer copyright line displays “© <current year> Electric Light. All rights reserved.”"
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "text": "Add the uploaded logo image (Gemini_Generated_Image_x7wtyjx7wtyjx7wt.png) to the frontend as a static asset and display it in the site branding area (next to the company name) in both the header and footer.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "And add the uploaded logo."
+        ]
+      },
+      "acceptanceCriteria": [
+        "The file Gemini_Generated_Image_x7wtyjx7wtyjx7wt.png is available under frontend/public/assets/generated and can be loaded via the URL /assets/generated/Gemini_Generated_Image_x7wtyjx7wtyjx7wt.png.",
+        "Header shows the logo image next to “Electric Light”, with appropriate sizing so it fits within the existing header height on mobile and desktop.",
+        "Footer shows the logo image next to “Electric Light”, consistent with header branding.",
+        "Logo <img> includes meaningful alt text in English (e.g., “Electric Light logo”)."
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "text": "Update the HTML document title to reflect the new company name “Electric Light”.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "change the company name to electric light."
+        ]
+      },
+      "acceptanceCriteria": [
+        "frontend/index.html <title> contains “Electric Light”."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not edit files under frontend/src/components/ui or any other paths listed in frontend.immutablePaths.",
+    "Keep the site as a single static home page; do not introduce backend dependencies for logo delivery."
+  ],
+  "nonGoals": [
+    "Changing contact email addresses, phone numbers, or other placeholder contact details.",
+    "Redesigning the overall layout or adding new sections beyond placing the logo in existing branding areas."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  },
+  "userProfileUpdate": {
+    "goalsToAdd": [],
+    "goalsToRemove": [],
+    "preferencesToAdd": [],
+    "preferencesToRemove": [],
+    "miscToAdd": [],
+    "miscToRemove": [],
+    "fieldsToSet": {},
+    "fieldsToDelete": []
+  }
+}

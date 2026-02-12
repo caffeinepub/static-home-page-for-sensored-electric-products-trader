@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Static website single home page for an electric products trader, focused on sensored electric products and including relevant product photos.",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-single-static-responsive-home-page-for-an-electric-products-trading-business-focused-on-sensored-electric-products-using-english-for-all-visible-text",
+      "title": "Create a single, static, responsive home page for an electric products trading business focused on sensored electric products, using English for all visible text.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-design-and-implement-a-coherent-visual-theme-colors-typography-spacing-and-component-styling-appropriate-for-an-industrial-electrical-trading-brand-applied-consistently-across-the-page-avoid-blue-purple-as-the-primary-palette",
+      "title": "Design and implement a coherent visual theme (colors, typography, spacing, and component styling) appropriate for an industrial/electrical trading brand, applied consistently across the page (avoid blue/purple as the primary palette).",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-product-showcase-section-featuring-sensored-electric-products-including-a-grid-list-of-product-cards-with-an-image-product-name-and-a-short-description-per-item",
+      "title": "Add a product showcase section featuring sensored electric products, including a grid/list of product cards with an image, product name, and a short description per item.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-hero-section-with-a-clear-headline-and-subheadline-describing-the-business-electric-products-trader-specializing-in-sensor-based-electrical-products-plus-primary-secondary-call-to-action-buttons-e-g-view-products-request-a-quote",
+      "title": "Add a hero section with a clear headline and subheadline describing the business (electric products trader specializing in sensor-based electrical products), plus primary/secondary call-to-action buttons (e.g., “View Products”, “Request a Quote”).",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-supporting-sections-suitable-for-a-static-trading-business-home-page-an-about-section-a-why-choose-us-key-advantages-section-and-a-contact-section-with-non-functional-form-fields-name-email-message-and-visible-placeholder-contact-details",
+      "title": "Add supporting sections suitable for a static trading-business home page: an 'About' section, a 'Why Choose Us' / key advantages section, and a 'Contact' section with non-functional form fields (name, email, message) and visible placeholder contact details.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-the-generated-sensored-electric-product-images-into-the-frontend-as-static-assets-under-frontend-public-assets-generated-and-use-them-in-the-hero-and-product-showcase-sections",
+      "title": "Add the generated sensored electric product images into the frontend as static assets under frontend/public/assets/generated and use them in the hero and product showcase sections.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-all-visible-company-brand-name-text-across-the-home-page-from-sensortech-electric-to-electric-light",
+      "title": "Update all visible company/brand name text across the home page from “SensorTech Electric” to “Electric Light”.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-the-uploaded-logo-image-gemini-generated-image-x7wtyjx7wtyjx7wt-png-to-the-frontend-as-a-static-asset-and-display-it-in-the-site-branding-area-next-to-the-company-name-in-both-the-header-and-footer",
+      "title": "Add the uploaded logo image (Gemini_Generated_Image_x7wtyjx7wtyjx7wt.png) to the frontend as a static asset and display it in the site branding area (next to the company name) in both the header and footer.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-html-document-title-to-reflect-the-new-company-name-electric-light",
+      "title": "Update the HTML document title to reflect the new company name “Electric Light”.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create a static website single home page for an electric products trader focused on sensored electric products",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Include photos/images of sensored electric products on the home page",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Change the company name/site branding text to “Electric Light”",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Add and display the uploaded company logo on the home page (e.g., in the header/hero)",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Static home page for sensored electric products trader",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

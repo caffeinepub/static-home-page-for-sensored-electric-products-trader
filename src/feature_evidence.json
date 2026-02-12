@@ -1,0 +1,59 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-all-visible-company-brand-name-text-across-the-home-page-from-sensortech-electric-to-electric-light",
+      "featureTitle": "Update all visible company/brand name text across the home page from “SensorTech Electric” to “Electric Light”.",
+      "files": [
+        "frontend/src/App.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-add-the-uploaded-logo-image-gemini-generated-image-x7wtyjx7wtyjx7wt-png-to-the-frontend-as-a-static-asset-and-display-it-in-the-site-branding-area-next-to-the-company-name-in-both-the-header-and-footer",
+      "featureTitle": "Add the uploaded logo image (Gemini_Generated_Image_x7wtyjx7wtyjx7wt.png) to the frontend as a static asset and display it in the site branding area (next to the company name) in both the header and footer.",
+      "files": [
+        "frontend/src/App.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-8"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-the-html-document-title-to-reflect-the-new-company-name-electric-light",
+      "featureTitle": "Update the HTML document title to reflect the new company name “Electric Light”.",
+      "files": [
+        "frontend/index.html"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-9"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

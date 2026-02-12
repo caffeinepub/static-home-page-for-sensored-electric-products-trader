@@ -1,0 +1,8 @@
+{
+  "frontend/src/index.css": "Global styles with industrial-themed OKLCH color system featuring charcoal/slate grays and amber/orange accents for both light and dark modes, plus custom utility classes.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with industrial color palette, custom font families, enhanced shadows, and fade-in animation for the static home page.",
+  "frontend/src/App.tsx": "Main application component rendering a complete single-page static website with header navigation (including Electric Light logo), hero section, products showcase, about section, advantages section, contact section, and footer with smooth scrolling between sections.",
+  "frontend/src/components/ProductCard.tsx": "Reusable product card component displaying product image, name, and description with hover effects and responsive layout.",
+  "frontend/src/components/ContactForm.tsx": "Non-functional contact form component with name, email, and message fields for display purposes only, showing a demo alert on submission.",
+  "frontend/index.html": "HTML entry point with document title set to \"Electric Light\" and root div for React mounting."
+}

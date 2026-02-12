@@ -1,0 +1,16 @@
+{
+  "backend/main.mo": "Empty Motoko actor with no methods or logic.",
+  "feature_evidence.json": "Defines feature evidence metadata linking features to affected frontend files and components.",
+  "frontend-file-summaries.txt": "Contains short summaries of key frontend files for documentation or planning.",
+  "frontend/index.css": "Tailwind CSS base and dark mode theme variables for industrial color scheme.",
+  "frontend/index.html": "HTML entry with favicon, viewport settings, title, and root mount for React app.",
+  "frontend/src/App.tsx": "Main React component rendering full site layout with navigation, hero, products, advantages, contact, and footer.",
+  "frontend/src/components/ContactForm.tsx": "Display-only contact form that collects input and shows a demo alert on submit.",
+  "frontend/src/components/ProductCard.tsx": "Reusable product card displaying an image, name, description, and link.",
+  "frontend/src/hooks/useActor.ts": "React hook that creates and manages an authenticated or anonymous backend actor using React Query.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Internet Identity auth context and provider offering login, logout, and identity persistence.",
+  "frontend/src/index.css": "Tailwind CSS theme with industrial colors, dark mode variants, and utility extensions.",
+  "frontend/src/main.tsx": "React entry point initializing QueryClient, InternetIdentityProvider, and rendering App.",
+  "frontend/tailwind.config.js": "Configures Tailwind with dark mode, custom colors, typography, animations, and plugins for a themed responsive UI.",
+  "project_state.json": "Defines the project’s state, including schema version, high-level summary, and a list of implemented features for the static home page."
+}

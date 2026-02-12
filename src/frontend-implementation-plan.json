@@ -1,0 +1,60 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Rename brand to Electric Light and add static logo in header/footer",
+  "requirements": [
+    {
+      "id": "REQ-7",
+      "summary": "Rename all visible brand/company name text on the single-page home to “Electric Light”.",
+      "acceptanceCriteria": [
+        "Header brand text displays “Electric Light”.",
+        "About section heading displays “About Electric Light”.",
+        "Footer brand text displays “Electric Light”.",
+        "Footer copyright line displays “© <current year> Electric Light. All rights reserved.”"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Replace visible brand text occurrences of “SensorTech Electric” with “Electric Light” in the header branding, About section heading, footer branding, and footer copyright line while keeping the site as a single static home page."
+        }
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "summary": "Add the uploaded logo as a static asset and display it next to the company name in both header and footer branding areas.",
+      "acceptanceCriteria": [
+        "The file Gemini_Generated_Image_x7wtyjx7wtyjx7wt.png is available under frontend/public/assets/generated and can be loaded via the URL /assets/generated/Gemini_Generated_Image_x7wtyjx7wtyjx7wt.png.",
+        "Header shows the logo image next to “Electric Light”, with appropriate sizing so it fits within the existing header height on mobile and desktop.",
+        "Footer shows the logo image next to “Electric Light”, consistent with header branding.",
+        "Logo <img> includes meaningful alt text in English (e.g., “Electric Light logo”)."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/public/assets/generated/Gemini_Generated_Image_x7wtyjx7wtyjx7wt.png",
+          "operation": "create",
+          "description": "Add the uploaded logo file as a static public asset at this exact path so it is served at /assets/generated/Gemini_Generated_Image_x7wtyjx7wtyjx7wt.png."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Update the header and footer branding blocks to render the logo via an <img> using /assets/generated/Gemini_Generated_Image_x7wtyjx7wtyjx7wt.png, placed next to the “Electric Light” text with responsive sizing classes that fit within the existing header/footer heights and include meaningful English alt text (e.g., “Electric Light logo”)."
+        }
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "summary": "Update the HTML document title to “Electric Light”.",
+      "acceptanceCriteria": [
+        "frontend/index.html <title> contains “Electric Light”."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/index.html",
+          "operation": "modify",
+          "description": "Update the <title> text to include the new company name “Electric Light” while keeping the app as a single static home page."
+        }
+      ]
+    }
+  ]
+}
